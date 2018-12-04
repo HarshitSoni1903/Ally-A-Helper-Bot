@@ -18,19 +18,10 @@ _* It should describe what the project is about. *_
 8. Facial analysis(if applicable).
 
 #### Architecture for Chatbot: 
-```mermaid
-graph LR
-Z1[Voice input] --> A[Voice to text: Statement]
-Z1 --> Z2(Voice analysis)
-A  --> B[Neural network-1]
-Z2 --> B
-B --> C[Neural Network-2]
-B --> D[System to administer CBT]
-B --> E[Neural Network-3]
-C --> F[Next statement by Ally]
-D --> F
-E --> F
-```
+
+![Architecture](/images/chatbot_flow.PNG)
+Format: ![Chatbot Flow](https://github.com/HarshitSoni1903/Ally-A-Helper-Bot/blob/master/images/chatbot_flow.PNG)
+
 > **Neual network-1:** _A network that analyses the text input and classifies it under 3 categories, finally decides upon what system to use:_
 > - Neutral conversations: _Where the system functions like a normal chatbot(**Neual network-2**)._
 > - Weak-Emotion conversation: _Where the system generates emotional responses(**Neual network-3**)._
