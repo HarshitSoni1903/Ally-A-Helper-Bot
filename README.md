@@ -20,7 +20,6 @@ _* It should describe what the project is about. *_
 #### Architecture for Chatbot: 
 
 ![Architecture](/images/chatbot_flow.PNG)
-Format: ![Chatbot Flow](https://github.com/HarshitSoni1903/Ally-A-Helper-Bot/blob/master/images/chatbot_flow.PNG)
 
 > **Neual network-1:** _A network that analyses the text input and classifies it under 3 categories, finally decides upon what system to use:_
 > - Neutral conversations: _Where the system functions like a normal chatbot(**Neual network-2**)._
