@@ -1,7 +1,5 @@
 # Ally: A Helper Bot
-
-_* Add content here. *_
-_* It should describe what the project is about. *_
+The internet can be used as a means of communication between a mental health practitioner and a patient. Some online systems combine self-help and interaction with a live therapist, a user may work through some content independently, and a therapist periodically reviews their progress and answers any questions they may have. But it is often seen that people feel shy or uncomfortable sharing their mental health issues compared to their physical health. Thus, systems were embedded in special purpose computers, such as robots or they may use sophisticated Artifical Intelligence (AI) technology to bridge the gap between computerized and live therapy. Thus, in this project we use Neural Networks and Speech Recognition to create a basic therapist to interact with people dealing with mental health issues. The objective of our project is to promoto awareness about these common issues that people hardly speak about and make is easier for people to get through with it.
 
 ## Ally in brief - a flow-chart:
 
